@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "node --test src/lib/narrowRuntime.test.ts src/lib/narrowUiState.test.ts src/lib/narrowInspection.test.ts src/lib/narrowShellContract.test.ts src/lib/narrowEventFlow.test.ts src/lib/narrowSaveStore.test.ts src/lib/narrowLiveShellSmoke.test.ts src/lib/narrowFixturesPack.test.ts src/lib/narrowWorkbenchContract.test.ts src/lib/narrowShellHardening.test.ts",
+    "inspect:narrow": "node scripts/inspectNarrowRuntime.ts"
   },
   "dependencies": {
     "react": "^19.2.0",
