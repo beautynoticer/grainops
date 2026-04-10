@@ -1,5 +1,5 @@
-import { ChamberApp } from "../components/chamber/ChamberApp";
+import { NarrowShell } from "../components/narrow/NarrowShell";
 
 export default function Page() {
-  return <ChamberApp />;
+  return <NarrowShell />;
 }
